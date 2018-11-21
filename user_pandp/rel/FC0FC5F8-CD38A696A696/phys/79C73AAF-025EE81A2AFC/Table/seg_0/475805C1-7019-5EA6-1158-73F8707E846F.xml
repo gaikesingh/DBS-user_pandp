@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="EN_USER" directorySegmentName="seg_0" id="475805C1-7019-5EA6-1158-73F8707E846F">
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+<schemaObject>F000D900-79F6-7947-6CB3-A046EEE70632</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>1190E1C6-A57F-42EC-BD38-000B450644FE</segment>
+<tableSpace>CC23B3CC-39F5-9CD2-2ECB-48661585DF10</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="EXTERNAL_ID_UP" id="40CAC9E1-8680-BD20-4357-55728A9C8AE6">
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+<columnExpression>UPPER(&quot;EXTERNAL_ID&quot;)</columnExpression>
+</ColumnProxy>
+<ColumnProxy name="PREFERRED_LANGUAGE" id="670C4E17-7B33-284F-D52E-488426CBAD6A">
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+<defaultValue>NULL</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="EXTERNAL_ID" id="7785AE09-9A7A-CF23-69D9-13D70682011E">
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FULL_NAME" id="88CA0AE5-D307-0E8C-E5B7-7B117DF2E3F8">
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FULL_NAME_UP" id="8EDC6CF5-7130-A3BB-B7C1-328DDD7D9562">
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+<columnExpression>UPPER(&quot;FULL_NAME&quot;)</columnExpression>
+</ColumnProxy>
+<ColumnProxy name="ID" id="96535632-5465-935F-0489-A914E4BA72BE">
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LEGAL_ENTITY_ID" id="A6654967-C9FC-A470-2F50-660C16470D1E">
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="UQ_EN_USER_01" id="1147FC5A-9D6C-9685-CE46-53D25B2ACA21">
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+<schemaObject>F000D900-79F6-7947-6CB3-A046EEE70632</schemaObject>
+<segment>5FEF00FC-7B39-2B92-696B-5D5B74D7802B</segment>
+<tableSpace>CC23B3CC-39F5-9CD2-2ECB-48661585DF10</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_EN_USER" id="4EF3B5CB-36AF-7F56-689A-8FE73A6A9DD7">
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+<schemaObject>F000D900-79F6-7947-6CB3-A046EEE70632</schemaObject>
+<segment>5FEF00FC-7B39-2B92-696B-5D5B74D7802B</segment>
+<tableSpace>CC23B3CC-39F5-9CD2-2ECB-48661585DF10</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IX_FULL_NAME_UP" id="5A120CD6-4D41-3B3E-E006-6652BCF577BE">
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+<schemaObject>F000D900-79F6-7947-6CB3-A046EEE70632</schemaObject>
+<segment>5FEF00FC-7B39-2B92-696B-5D5B74D7802B</segment>
+<tableSpace>CC23B3CC-39F5-9CD2-2ECB-48661585DF10</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="UQ_EXTERNAL_ID_UP" id="CD81698D-8CDA-6DB4-BCC8-F35B4F6C22F7">
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+<schemaObject>F000D900-79F6-7947-6CB3-A046EEE70632</schemaObject>
+<segment>5FEF00FC-7B39-2B92-696B-5D5B74D7802B</segment>
+<tableSpace>CC23B3CC-39F5-9CD2-2ECB-48661585DF10</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_EN_USER" id="424CEC0B-59FB-1597-2374-E8A4FC986A70">
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+<segment>5FEF00FC-7B39-2B92-696B-5D5B74D7802B</segment>
+<tableSpace>CC23B3CC-39F5-9CD2-2ECB-48661585DF10</tableSpace>
+<existingIndex>4EF3B5CB-36AF-7F56-689A-8FE73A6A9DD7</existingIndex>
+<indexSegment>5FEF00FC-7B39-2B92-696B-5D5B74D7802B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

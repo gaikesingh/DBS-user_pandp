@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="USER_PANDP" directorySegmentName="seg_0" id="F8F6A0EC-E543-2E31-D84E-A4938F082ED7">
+<sourceConnName>DEV10_soeniel</sourceConnName>
+<sourceObjName>USER_PANDP</sourceObjName>
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+<schemaObject>F000D900-79F6-7947-6CB3-A046EEE70632</schemaObject>
+</UserOraclev10g>

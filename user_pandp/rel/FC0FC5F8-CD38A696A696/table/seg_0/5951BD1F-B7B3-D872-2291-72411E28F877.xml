@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5951BD1F-B7B3-D872-2291-72411E28F877" schemaObject="F000D900-79F6-7947-6CB3-A046EEE70632" name="ADD_PROP_EN_USER">
+<sourceConnName>DEV10_soeniel</sourceConnName>
+<sourceObjSchema>USER_PANDP</sourceObjSchema>
+<sourceObjName>ADD_PROP_EN_USER</sourceObjName>
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ADD_PROP_EN_USER_ID" id="E7D6D160-318E-8720-CB58-3FCE8AF489CA">
+<sourceConnName>DEV10_soeniel</sourceConnName>
+<sourceObjSchema>ADD_PROP_EN_USER</sourceObjSchema>
+<sourceObjName>ADD_PROP_EN_USER_ID</sourceObjName>
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36 BYTE</dataTypeSize>
+<ownDataTypeParameters>36 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9632696-5B4F-7AEE-4346-B389E09B9A4E" referredColumn="96535632-5465-935F-0489-A914E4BA72BE"/>
+</associations>
+</Column>
+<Column name="PROPERTY_VALUE" id="07489F80-CD0C-BD80-30B5-134FCCF14F06">
+<sourceConnName>DEV10_soeniel</sourceConnName>
+<sourceObjSchema>ADD_PROP_EN_USER</sourceObjSchema>
+<sourceObjName>PROPERTY_VALUE</sourceObjName>
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROPERTY_KEY" id="FF10922F-4742-2404-CE0C-37C76E61FF5D">
+<sourceConnName>DEV10_soeniel</sourceConnName>
+<sourceObjSchema>ADD_PROP_EN_USER</sourceObjSchema>
+<sourceObjName>PROPERTY_KEY</sourceObjName>
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3B4D04E5-1E5F-8A5E-0544-E3DEC8D3C319" name="PK_ADD_PROP_EN_USER">
+<sourceConnName>DEV10_soeniel</sourceConnName>
+<sourceObjSchema>USER_PANDP</sourceObjSchema>
+<sourceObjName>PK_ADD_PROP_EN_USER</sourceObjName>
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7D6D160-318E-8720-CB58-3FCE8AF489CA"/>
+<colUsage columnID="FF10922F-4742-2404-CE0C-37C76E61FF5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B956C85C-AE9E-E61C-6572-F836EC183A97" schemaObject="F000D900-79F6-7947-6CB3-A046EEE70632" name="IX_APEU_01">
+<sourceConnName>DEV10_soeniel</sourceConnName>
+<sourceObjSchema>USER_PANDP</sourceObjSchema>
+<sourceObjName>IX_APEU_01</sourceObjName>
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7D6D160-318E-8720-CB58-3FCE8AF489CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3EF9A7C-69C2-A853-CE39-FFD40D814CC0" schemaObject="F000D900-79F6-7947-6CB3-A046EEE70632" name="PK_ADD_PROP_EN_USER">
+<sourceConnName>DEV10_soeniel</sourceConnName>
+<sourceObjSchema>USER_PANDP</sourceObjSchema>
+<sourceObjName>PK_ADD_PROP_EN_USER</sourceObjName>
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7D6D160-318E-8720-CB58-3FCE8AF489CA"/>
+<colUsage columnID="FF10922F-4742-2404-CE0C-37C76E61FF5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A893808-109A-6C6C-3465-F94EE4107FA2" name="FK_ADD_PROP_EN_USER_2_EN_USER">
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7D6D160-318E-8720-CB58-3FCE8AF489CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="F000D900-79F6-7947-6CB3-A046EEE70632" name="USER_PANDP" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.SchemaObject" propertyParentId="FC0FC5F8-D78F-D9E9-862B-CD38A696A696" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="5951BD1F-B7B3-D872-2291-72411E28F877" name="ADD_PROP_EN_USER" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="FC0FC5F8-D78F-D9E9-862B-CD38A696A696" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="475805C1-7019-5EA6-1158-73F8707E846F" name="EN_USER" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="FC0FC5F8-D78F-D9E9-862B-CD38A696A696" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="A9632696-5B4F-7AEE-4346-B389E09B9A4E" name="FK_ADD_PROP_EN_USER_2_EN_USER" seqName="seg_0" containerID="5951BD1F-B7B3-D872-2291-72411E28F877" refContainerID="475805C1-7019-5EA6-1158-73F8707E846F" propertyClassName="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" propertyParentId="FC0FC5F8-D78F-D9E9-862B-CD38A696A696" propertySourceId="475805C1-7019-5EA6-1158-73F8707E846F" propertyTargetId="5951BD1F-B7B3-D872-2291-72411E28F877"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

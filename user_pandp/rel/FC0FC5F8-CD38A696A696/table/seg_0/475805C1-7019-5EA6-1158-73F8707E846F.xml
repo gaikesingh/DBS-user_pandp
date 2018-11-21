@@ -1,0 +1,187 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="475805C1-7019-5EA6-1158-73F8707E846F" schemaObject="F000D900-79F6-7947-6CB3-A046EEE70632" name="EN_USER">
+<sourceConnName>DEV10_soeniel</sourceConnName>
+<sourceObjSchema>USER_PANDP</sourceObjSchema>
+<sourceObjName>EN_USER</sourceObjName>
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="96535632-5465-935F-0489-A914E4BA72BE">
+<sourceConnName>DEV10_soeniel</sourceConnName>
+<sourceObjSchema>EN_USER</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36 BYTE</dataTypeSize>
+<ownDataTypeParameters>36 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXTERNAL_ID" id="7785AE09-9A7A-CF23-69D9-13D70682011E">
+<sourceConnName>DEV10_soeniel</sourceConnName>
+<sourceObjSchema>EN_USER</sourceObjSchema>
+<sourceObjName>EXTERNAL_ID</sourceObjName>
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 BYTE</dataTypeSize>
+<ownDataTypeParameters>64 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LEGAL_ENTITY_ID" id="A6654967-C9FC-A470-2F50-660C16470D1E">
+<sourceConnName>DEV10_soeniel</sourceConnName>
+<sourceObjSchema>EN_USER</sourceObjSchema>
+<sourceObjName>LEGAL_ENTITY_ID</sourceObjName>
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36 BYTE</dataTypeSize>
+<ownDataTypeParameters>36 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FULL_NAME" id="88CA0AE5-D307-0E8C-E5B7-7B117DF2E3F8">
+<sourceConnName>DEV10_soeniel</sourceConnName>
+<sourceObjSchema>EN_USER</sourceObjSchema>
+<sourceObjName>FULL_NAME</sourceObjName>
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PREFERRED_LANGUAGE" id="670C4E17-7B33-284F-D52E-488426CBAD6A">
+<sourceConnName>DEV10_soeniel</sourceConnName>
+<sourceObjSchema>EN_USER</sourceObjSchema>
+<sourceObjName>PREFERRED_LANGUAGE</sourceObjName>
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<defaultValue>NULL</defaultValue>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXTERNAL_ID_UP" id="40CAC9E1-8680-BD20-4357-55728A9C8AE6">
+<sourceConnName>DEV10_soeniel</sourceConnName>
+<sourceObjSchema>EN_USER</sourceObjSchema>
+<sourceObjName>EXTERNAL_ID_UP</sourceObjName>
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+<formulaDesc>UPPER(&quot;EXTERNAL_ID&quot;)</formulaDesc>
+<nullsAllowed>true</nullsAllowed>
+<sourceType>Derived</sourceType>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 BYTE</dataTypeSize>
+<ownDataTypeParameters>64 BYTE,,</ownDataTypeParameters>
+<computed>true</computed>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FULL_NAME_UP" id="8EDC6CF5-7130-A3BB-B7C1-328DDD7D9562">
+<sourceConnName>DEV10_soeniel</sourceConnName>
+<sourceObjSchema>EN_USER</sourceObjSchema>
+<sourceObjName>FULL_NAME_UP</sourceObjName>
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+<formulaDesc>UPPER(&quot;FULL_NAME&quot;)</formulaDesc>
+<nullsAllowed>true</nullsAllowed>
+<sourceType>Derived</sourceType>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<computed>true</computed>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="424CEC0B-59FB-1597-2374-E8A4FC986A70" name="PK_EN_USER">
+<sourceConnName>DEV10_soeniel</sourceConnName>
+<sourceObjSchema>USER_PANDP</sourceObjSchema>
+<sourceObjName>PK_EN_USER</sourceObjName>
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96535632-5465-935F-0489-A914E4BA72BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A120CD6-4D41-3B3E-E006-6652BCF577BE" schemaObject="F000D900-79F6-7947-6CB3-A046EEE70632" name="IX_FULL_NAME_UP">
+<sourceConnName>DEV10_soeniel</sourceConnName>
+<sourceObjSchema>USER_PANDP</sourceObjSchema>
+<sourceObjName>IX_FULL_NAME_UP</sourceObjName>
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EDC6CF5-7130-A3BB-B7C1-328DDD7D9562"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4EF3B5CB-36AF-7F56-689A-8FE73A6A9DD7" schemaObject="F000D900-79F6-7947-6CB3-A046EEE70632" name="PK_EN_USER">
+<sourceConnName>DEV10_soeniel</sourceConnName>
+<sourceObjSchema>USER_PANDP</sourceObjSchema>
+<sourceObjName>PK_EN_USER</sourceObjName>
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96535632-5465-935F-0489-A914E4BA72BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1147FC5A-9D6C-9685-CE46-53D25B2ACA21" schemaObject="F000D900-79F6-7947-6CB3-A046EEE70632" name="UQ_EN_USER_01">
+<sourceConnName>DEV10_soeniel</sourceConnName>
+<sourceObjSchema>USER_PANDP</sourceObjSchema>
+<sourceObjName>UQ_EN_USER_01</sourceObjName>
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+<indexExpression>LOWER(&quot;EXTERNAL_ID&quot;)</indexExpression>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="CD81698D-8CDA-6DB4-BCC8-F35B4F6C22F7" schemaObject="F000D900-79F6-7947-6CB3-A046EEE70632" name="UQ_EXTERNAL_ID_UP">
+<sourceConnName>DEV10_soeniel</sourceConnName>
+<sourceObjSchema>USER_PANDP</sourceObjSchema>
+<sourceObjName>UQ_EXTERNAL_ID_UP</sourceObjName>
+<createdBy>Soeniel</createdBy>
+<createdTime>2018-11-21 11:14:23 UTC</createdTime>
+<ownerDesignName>user_pandp</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40CAC9E1-8680-BD20-4357-55728A9C8AE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
